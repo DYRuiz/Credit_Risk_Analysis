@@ -30,7 +30,7 @@ Balanced Accruary Score: 0.5447339051023905
 #### SMOTEEN
 Balanced Accuracy Score: 0.6447993752836463
 
-![ClassificationReport](images/SMOTEEN.png
+![ClassificationReport](images/SMOTEEN.png)
 
 #### Balanced Random Forest Classifier
 Balanced Accuracy Score: 0.7885466545953005
