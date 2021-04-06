@@ -20,7 +20,7 @@ Balanced Accurary Score: 0.6603423204808787
 #### SMOTE
 Balanced Accuracy Score: 0.6537310478007576
 
-![ClassificationReport](images/SMOTE.png
+![ClassificationReport](images/SMOTE.png)
 
 #### Cluster Centroids
 Balanced Accruary Score: 0.5447339051023905
