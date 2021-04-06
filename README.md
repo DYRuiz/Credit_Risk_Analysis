@@ -11,33 +11,37 @@ This analysis is to compare the effectiveness of various supervised machine lear
 - Easy Ensemble AdaBoost Classifier
 
 ## Results
-- Balanced Accurary Scores, Precision and Recall of all six models
-- [Screenshots]
 
-### Native Random Oversampling
+#### Native Random Oversampling
 Balanced Accurary Score: 0.6603423204808787
+
 ![ClassificationReport](images/NativeRandomOversampling.png)
 
-### SMOTE
+#### SMOTE
 Balanced Accuracy Score: 0.6537310478007576
+
 ![ClassificationReport](images/SMOTE.png
 
-### Cluster Centroids
+#### Cluster Centroids
 Balanced Accruary Score: 0.5447339051023905
+
 ![ClassficationReport](images/ClusterCentroids.png)
 
-### SMOTEEN
+#### SMOTEEN
 Balanced Accuracy Score: 0.6447993752836463
+
 ![ClassificationReport](images/SMOTEEN.png
 
-### Balanced Random Forest Classifier
+#### Balanced Random Forest Classifier
 Balanced Accuracy Score: 0.7885466545953005
+
 ![ClassficationReport](images/BalancedRandomForest.png)
 
-### Easy Ensemble AdaBoost Classifier
+#### Easy Ensemble AdaBoost Classifier
 Balanced Accuracy Score: 0.9316600714093861
+
 ![ClassificationReport](images/EnsembleAdaBoost.png)
 
 
 ## Summary
-Recommendation on model to use or not to use any.
+Of the models used, the Easy Ensemble AdaBoost Classifier had the highest metrics overall and for both individual classes (high risk / low risk).  Based on this analysis, this model is recommended to predict credit risk.  The other models did well with the low-risk classification but not as well with the high risk which is the primary objective.  
